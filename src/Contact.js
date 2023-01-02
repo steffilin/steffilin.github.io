@@ -1,6 +1,6 @@
 import React from "react";
 import './Contact.css';
-import Message from './Message';
+// import Message from './Message';
 import Pdf from './Resume/Steffi-Lin-Resume.pdf';
 
 const Contact = () => {
@@ -24,8 +24,8 @@ const Contact = () => {
         </div>
         <div className="contact-info">
             {/* <p>Send me a message!</p> */}
-            <Message />
-            <p>Or connect with me through the links below:</p>
+            {/* <Message /> */}
+            <p>Connect with me through the links below:</p>
             <p id="email">steffi2002.lin@gmail.com  </p> 
             <p id="contact-links"><a href ="https://www.linkedin.com/in/steffilin/"
                 target="blank">Linkedin</a>  |  <a href ="https://github.com/steffilin"
