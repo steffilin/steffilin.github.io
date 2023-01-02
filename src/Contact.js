@@ -1,7 +1,21 @@
 import React from "react";
 import './Contact.css';
+import Message from './Message'
 
 const Contact = () => {
+    // const span = document.getElementById("email");
+    // span.onclick = function () {
+    //     document.execCommand("copy");
+    // }
+    // span.addEventListener("click", function(event) {
+    //     event.preventDefault();
+    //     if (event.clipboardData) {
+    //         event.clipboardData.setData("text/plain", span.textContent);
+    //         console.log(event.clipboardData.getData("text"))
+    //     }
+    // });
+
+
     return (
         <div className="contact">
         <div className="contact-head">
@@ -9,8 +23,10 @@ const Contact = () => {
         </div>
         <div className="contact-info">
             <p>Send me a message!</p>
+            <Message />
             <p>Or connect with me through the links below:</p>
-            <p id="contact-links">steffi2002.lin@gmail.com  |  <a href ="https://www.linkedin.com/in/steffilin/"
+            <p id="email">steffi2002.lin@gmail.com  </p> 
+            <p id="contact-links">|  <a href ="https://www.linkedin.com/in/steffilin/"
                 target="blank">Linkedin</a>  |  <a href ="https://github.com/steffilin"
                 target="blank">Github</a>  |  <a href="https://www.instagram.com/steffilinart/"
                 target="blank">Art Instagram</a>
