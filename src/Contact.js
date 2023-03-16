@@ -26,7 +26,7 @@ const Contact = () => {
             {/* <p>Send me a message!</p> */}
             {/* <Message /> */}
             <p>Connect with me through the links below:</p>
-            <p id="email">steffi2002.lin@gmail.com  </p> 
+            <p id="email">steffilin@berkeley.edu  </p> 
             <p id="contact-links"><a href ="https://www.linkedin.com/in/steffilin/"
                 target="blank">Linkedin</a>  |  <a href ="https://github.com/steffilin"
                 target="blank">Github</a>  |  <a href="https://www.instagram.com/steffilinart/"
