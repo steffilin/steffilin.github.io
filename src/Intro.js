@@ -1,7 +1,7 @@
 import React from "react";
 import './Intro.css';
 import flower1 from './images/home_top_right_stars.png';
-import portrait from './images/portrait.png';
+import portrait from './images/steffi-portrait.jpg';
 import flower2 from './images/bottom-left-stars.png';
 
 
@@ -19,9 +19,11 @@ const Intro = () => {
                 <img
                 src={portrait}
                 alt="my picture"
-                width="385"
-                height="396"/>
+                // width="385"
+                // height="396"
+                />
             </div>
+            <div className="line" id="linedetail"></div>
             <div className="intro">
                 <p id="intro">
                     Hi there! I'm currently studying Computer Science at UC Berkeley
@@ -30,6 +32,11 @@ const Intro = () => {
                     to learn more about me!
                 </p>
             </div>
+            <div className="circles">
+                <div className="circ" id="circ30"></div>
+                <div className="circ" id="circ50"></div>
+                <div className="circ" id="circ70"></div>
+            </div>
             <div className="bottom-left-flower">
                 <img
                 src={flower2}
@@ -37,7 +44,7 @@ const Intro = () => {
                 width="513"
                 height="427"/>
             </div>
-            <div className="tit"><h1>Meet Steffi Lin</h1></div>
+            <div className="tit"><h1>MEET STEFFI LIN</h1></div>
         </div>
         
     )
