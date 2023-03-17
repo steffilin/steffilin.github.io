@@ -44,7 +44,8 @@ const Intro = () => {
                 width="513"
                 height="427"/>
             </div>
-            <div className="tit"><h1>MEET STEFFI LIN</h1></div>
+            <p className="tit-intro">Hi, my name is</p>
+            <div className="tit"><h1>STEFFI LIN</h1></div>
         </div>
         
     )
