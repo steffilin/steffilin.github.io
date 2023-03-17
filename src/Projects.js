@@ -1,5 +1,8 @@
 import React from "react";
 import "./Projects.css";
+import prioritygif from './images/priority-app-gif.gif';
+import priorityfigma from './images/priority-app-figma.png';
+import gitlet from './images/gitlet.png';
 
 const Projects = () => {
     return (
@@ -7,8 +10,58 @@ const Projects = () => {
             <div className="proj-head">
                 <h3 id="proj-bookmark" className="head-placement">Projects</h3>
             </div>
-            <div className="projects">
-                <div className="proj-box" id="proj1">
+            <div class="proj-container">
+                <div className="proj-box-left" id="proj1">
+                    <div className="proj-box">
+                        <p className="proj-tit"><b>Task Tracker App</b></p>
+                        <ul>
+                            <li>An iOS app to organize tasks based on due date</li>
+                            <li>Design and code using Figma and XCode SwiftUI</li>
+                            <li>Data persistence using JSON</li>
+                        </ul>
+                    </div>
+
+                    <p id="skills-text">XCode, SwiftUI, Swift, Figma, JSON</p>
+
+                </div>
+                
+                <img src={prioritygif} alt="prioritygif" id="priority-gif"/>
+                <img src={priorityfigma} alt="priority-app-figma" id="priority-figma"/>
+
+                <div className="separator1" id="linedetail"></div>
+                <div className="circlesproj">
+                    <div className="circproj" id="circ30"></div>
+                    <div className="circproj" id="circ50"></div>
+                    <div className="circproj" id="circ70"></div>
+                </div>
+
+                {/* PROJECT 2 */}
+                <div className="proj-box-right" id="proj2">
+                    <div className="proj-box">
+                        <p className="proj-tit"><b>Gitlet</b></p>
+                        <ul>
+                            <li>A version control system that mimics the basic features of Git</li>
+                            <li>Used serialization to store objects in files</li>
+                            <li>Integration using graphs, trees, and BFS</li>
+                        </ul>
+                    </div>
+
+                    <p id="skills-text">Java, Data Structures, Git</p>
+                </div>
+
+                <img src={gitlet} alt="gitlet-photo" id="gitlet"/>
+            </div>
+        </div>
+    )
+}
+
+export default Projects
+
+
+
+
+
+{/* <div className="proj-box" id="proj1">
                     <p className="proj-tit"><b>Task Tracker App</b></p>
                     <ul>
                         <li>An iOS app to organize tasks based on due date</li>
@@ -43,10 +96,4 @@ const Projects = () => {
                         </li>
                         <li>Handled input errors / throw exception errors</li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default Projects
+                </div> */}
