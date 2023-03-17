@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.75f19da9.css",
+    "main.css": "/static/css/main.b71de3b0.css",
     "main.js": "/static/js/main.a3e46106.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/steffi-portrait.jpg": "/static/media/steffi-portrait.31d0c25fd6c2e7645e73.jpg",
     "static/media/Steffi-Lin-Resume.pdf": "/static/media/Steffi-Lin-Resume.ac9d8b1b172614646887.pdf",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.75f19da9.css.map": "/static/css/main.75f19da9.css.map",
+    "main.b71de3b0.css.map": "/static/css/main.b71de3b0.css.map",
     "main.a3e46106.js.map": "/static/js/main.a3e46106.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75f19da9.css",
+    "static/css/main.b71de3b0.css",
     "static/js/main.a3e46106.js"
   ]
 }
