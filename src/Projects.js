@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div>
             <div className="proj-head">
-                <h3 id="proj-bookmark" className="head-placement">Projects</h3>
+                <h3 id="proj-bookmark" className="head-placement">PROJECTS</h3>
             </div>
             <div class="proj-container">
                 <div className="proj-box-left" id="proj1">

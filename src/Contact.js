@@ -21,7 +21,7 @@ const Contact = () => {
         <div class="gradient">
         <div className="contact">
             <div className="contact-head">
-                <h3 id="contact-bookmark">Contact Info</h3>
+                <h3 id="contact-bookmark">CONTACT INFO</h3>
             </div>
             <div className="contact-info">
                 {/* <p>Send me a message!</p> */}
