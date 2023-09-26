@@ -1,8 +1,10 @@
 import React from "react";
 import './Intro.css';
 import flower1 from './images/home_top_right_stars.png';
-import portrait from './images/steffi-portrait.jpg';
+import portrait from './images/portrait.png';
 import flower2 from './images/bottom-left-stars.png';
+import lotus from './images/lotus.png';
+import yosemite from './images/yosemite.png';
 
 
 const Intro = () => {
@@ -15,15 +17,31 @@ const Intro = () => {
                 width="422"
                 height="345"/>
             </div>
-            <div className="portrait">
-                <img
-                src={portrait}
-                alt="my picture"
-                // width="385"
-                // height="396"
-                />
+
+
+            <div class="pictures">
+                <div class="pic" id="portrait">
+                    <img
+                    src={portrait}
+                    alt="my picture"
+                    />
+                </div>
+                    
+                <div class="pic" id="lotus">
+                    <img
+                    src={lotus}
+                    alt="lotus picture"/>
+                </div>
+                
+                <div class="pic" id="yosemite">
+                    <img
+                    src={yosemite}
+                    alt="yosemite picture"/>
+                </div>
+              
             </div>
-            <div className="line" id="linedetail"></div>
+            
+            {/* <div className="line" id="linedetail"></div> */}
             <div className="intro">
                 <p id="intro">
                     Hi there! I'm currently studying Computer Science at UC Berkeley
@@ -32,11 +50,11 @@ const Intro = () => {
                     to learn more about me!
                 </p>
             </div>
-            <div className="circles">
+            {/* <div className="circles">
                 <div className="circ" id="circ30"></div>
                 <div className="circ" id="circ50"></div>
                 <div className="circ" id="circ70"></div>
-            </div>
+            </div> */}
             <div className="bottom-left-flower">
                 <img
                 src={flower2}
@@ -44,7 +62,8 @@ const Intro = () => {
                 width="513"
                 height="427"/>
             </div>
-            <div className="tit"><h1>MEET STEFFI LIN</h1></div>
+            <p className="tit-intro">Hi, my name is</p>
+            <div className="tit"><h1>STEFFI LIN</h1></div>
         </div>
         
     )

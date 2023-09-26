@@ -38,13 +38,23 @@
 }
 
 p {
-  background-color: #E4E2DF;
+  /* background-color: #E4E2DF; */
   border-radius: 30px;
+  color: #35363C;
+}
+
+h1 {
+  color: #35363C;
 }
 
 h3 {
+  color: #35363C;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 50px;
   letter-spacing: 0.05em;
+}
+
+html {
+  background-color: #FBFDFF;
 }

@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 120px;
     margin: 0 120px 0 120px;
+    padding-bottom: 5em;
 }
 
 .contact-head {
@@ -28,4 +29,9 @@
 
 #email {
     font-size: 20px;
+}
+
+.gradient {
+    padding-top: 8em;
+    background: linear-gradient(white, #B8E1FF);
 }
