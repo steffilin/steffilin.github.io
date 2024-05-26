@@ -18,7 +18,7 @@ const Intro = () => {
                     <p id="intro">
                         Hi there! I'm currently studying Computer Science at UC Berkeley
                         and am interested in both design and code. Recently, I've been getting
-                        into web and application development. Continue scrolling 
+                        into web and mobile development. Continue scrolling 
                         to learn more about me!
                     </p>
                 </div>
