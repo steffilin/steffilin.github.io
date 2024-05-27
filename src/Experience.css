@@ -17,6 +17,8 @@
     width: 60%;
     background-color: #D9D9D9;
     border-radius: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .text p {
@@ -25,22 +27,21 @@
 
 .expimg-container {
     padding: 0 0 1.5em 1.5em;
-    /* flex: 1 0 auto; */
-    /* flex-basis: fit-content; */
     display: flex;
     gap: 2em;
-    /* min-width: 0; */
-    /* min-height: 0; */
-    height: 15em;
-    /* width: 100%; */
+    width: 60%;
     /* width: 50%; */
 }
 
 .expimg-container img {
     border-radius: 10px;
+    max-width: 33%;
+    /* max-height: 33%; */
 }
 
 .exp-img {
+    /* object-fit: contain; */
+    
     /* border-radius: 20%; */
     /* flex-basis: fit-content; */
 }
