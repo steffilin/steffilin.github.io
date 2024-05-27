@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import Intro from './Intro';
@@ -11,9 +11,11 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <Intro />
-      <Projects />
-      <Contact />
+        
+        <div><Intro /></div>
+        <div><Projects /></div>
+        {/* <div><Contact /></div> */}
+      
     </div>
   );
 }

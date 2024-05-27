@@ -2,9 +2,12 @@ import React from "react";
 import './Intro.css';
 import flower1 from './images/home_top_right_stars.png';
 import portrait from './images/portrait.png';
-import flower2 from './images/bottom-left-stars.png';
-import lotus from './images/lotus.png';
-import yosemite from './images/yosemite.png';
+import envelopeFill from './images/envelopeFill.png';
+import github from './images/github.svg';
+import linkedin from './images/linkedin.png';
+import envelopehover from './images/envelopehover.png';
+import githubhover from './images/githubhover.png';
+import linkedinhover from './images/linkedinhover.png';
 
 
 const Intro = () => {
@@ -22,6 +25,12 @@ const Intro = () => {
                         to learn more about me!
                     </p>
                 </div>
+
+                <div id="socials">
+                    <a id="socialimg" href="mailto:steffilin@berkeley.edu" target="blank"><img src={envelopeFill} alt="email"/></a>
+                    <a id="socialimg" href="https://www.linkedin.com/in/steffilin/" target="blank"><img src={linkedin} alt="linkedin" /></a>
+                    <a id="socialimg" href="https://github.com/steffilin" target="blank"><img src={github} alt="github" /></a>
+                </div>
             </div>
             
             <div class="pictures">
@@ -36,6 +45,10 @@ const Intro = () => {
         </div>
         
     )
+    
 }
 
+
+
 export default Intro
+

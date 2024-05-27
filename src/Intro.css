@@ -34,18 +34,39 @@ p {
 #intro1 {
     flex-basis: fit-content;
     /* height: min-content; */
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 }
 
 #intro2 {
     flex-basis: fit-content;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 }
 
 .intro {
     flex-basis: fit-content;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 }
+
+#socials {
+    padding-top: 1em;
+    display: flex;
+    gap: 1.5em;
+    /* margin-left: -1.5em; */
+}
+
+#socialimg img {
+    height: auto;
+    width: 2em;
+    /* flex: 0.1 .1 auto; */
+    /* margin: 0 0 0 0; */
+}
+
+#socialimg img:hover {
+    /* src: './images/envelopehover.png'; */
+    /* color: black; */
+    filter: invert(1);
+}
+
 
 
 .pictures {
