@@ -1,9 +1,15 @@
 
 p {
   /* background-color: #E4E2DF; */
-  border-radius: 30px;
+  /* border-radius: 30px; */
   color: #35363C;
 }
+
+ul li {
+  color: #35363C;
+}
+
+
 
 h1 {
   color: #35363C;

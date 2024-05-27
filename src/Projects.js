@@ -31,7 +31,7 @@ export default Projects
 
 function ChangeExp() {
     const [exp, setExp] = useState(<AiVocate/>);
-    const [style1, setStyle1] = useState('none');
+    const [style1, setStyle1] = useState('bolded');
     const [style2, setStyle2] = useState('none');
     const [style3, setStyle3] = useState('none');
 
