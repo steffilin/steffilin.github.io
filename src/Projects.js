@@ -31,20 +31,29 @@ export default Projects
 
 function ChangeExp() {
     const [exp, setExp] = useState(<AiVocate/>);
+    const [style1, setStyle1] = useState('none');
+    const [style2, setStyle2] = useState('none');
+    const [style3, setStyle3] = useState('none');
 
-    function handleClick(app) {
+    function handleClick(app, elem) {
         switch(app) {
             case "aivocate":
                 setExp(<AiVocate/>);
-                // experienceMenu = exp;
+                setStyle1('bolded');
+                setStyle2('none');
+                setStyle3('none');
                 break;
             case "ethical":
                 setExp(<EthiCAL/>);
-                // experienceMenu = exp;
+                setStyle1('none');
+                setStyle2('bolded');
+                setStyle3('none');
                 break;
             case "cs61b":
                 setExp(<CS61B/>);
-                // experienceMenu = exp;
+                setStyle1('none');
+                setStyle2('none');
+                setStyle3('bolded');
                 break;
             default:
                 // experienceMenu = <AiVocate/>
@@ -59,9 +68,9 @@ function ChangeExp() {
 
             <div className="menu">
                 <ul>
-                    <li onClick={() => handleClick("aivocate")}>Ai.Vocate</li>
-                    <li onClick={() => handleClick("ethical")}>EthiCAL Apparel</li>
-                    <li onClick={() => handleClick("cs61b")}>Berkeley EECS CS61B</li>
+                    <li className={style1} onClick={() => handleClick("aivocate", this)}>Ai.Vocate</li>
+                    <li className={style2} onClick={() => handleClick("ethical", this)}>EthiCAL Apparel</li>
+                    <li className={style3} onClick={() => handleClick("cs61b", this)}>Berkeley EECS CS61B</li>
                     <li>Task Tracker App</li>
                     <li>Gitlet</li>
                 </ul>
