@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dee74042.css",
-    "main.js": "/static/js/main.4d514822.js",
+    "main.css": "/static/css/main.cc5643df.css",
+    "main.js": "/static/js/main.ced48cd3.js",
     "static/js/787.9cda6fd7.chunk.js": "/static/js/787.9cda6fd7.chunk.js",
     "static/media/priority-app-gif.gif": "/static/media/priority-app-gif.d220ecc7ad65c5670de8.gif",
     "static/media/aivocate1.png": "/static/media/aivocate1.c008b8e2faf6bf06ab5f.png",
@@ -13,12 +13,12 @@
     "static/media/Steffi-Lin-Resume.pdf": "/static/media/Steffi-Lin-Resume.8d3590f5b54232d6d57a.pdf",
     "static/media/github.svg": "/static/media/github.f60417c68b8ff116ffc0ff72cc9ab346.svg",
     "index.html": "/index.html",
-    "main.dee74042.css.map": "/static/css/main.dee74042.css.map",
-    "main.4d514822.js.map": "/static/js/main.4d514822.js.map",
+    "main.cc5643df.css.map": "/static/css/main.cc5643df.css.map",
+    "main.ced48cd3.js.map": "/static/js/main.ced48cd3.js.map",
     "787.9cda6fd7.chunk.js.map": "/static/js/787.9cda6fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dee74042.css",
-    "static/js/main.4d514822.js"
+    "static/css/main.cc5643df.css",
+    "static/js/main.ced48cd3.js"
   ]
 }
