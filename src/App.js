@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Intro from './Intro';
 import Projects from './Projects';
 import Contact from './Contact';
+import Education from './Education';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         
         <div><Intro /></div>
         <div><Projects /></div>
+        <div><Education /></div>
         {/* <div><Contact /></div> */}
       
     </div>
