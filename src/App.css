@@ -30,3 +30,10 @@ h3 {
 html {
   background-color: #FBFDFF;
 }
+
+a {
+  text-decoration: none;
+  color:#35363C;
+  font-weight: 600;
+  text-decoration: underline;
+}

@@ -13,7 +13,7 @@ function AiVocate() {
                 <li>Implemented advanced functionalities, such as integrating OpenAI API calls, data storage using Firebase, & user
                     authentication, enhancing user experience and providing users with personalized interactive experiences</li>
             </ul>
-            <div className="expimg-container">
+            <div className="expimg-container3">
                 
                 <img className="expimg" src={aivocate1}></img>
                 <img className="expimg" src={aivocate2}></img>
