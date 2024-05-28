@@ -13,9 +13,14 @@ const Education = () => {
                 <h3 id="proj-bookmark" className="head-placement">EDUCATION</h3>
                 <div className="education-text-container">
                     <div>
-                        <p style={{fontWeight:"500"}}>University of California, Berkeley</p>
+                        <p style={{fontSize:"1.2vw", fontWeight:"500",fontStyle:"italic", lineHeight:"2vw"}}>University of California, Berkeley</p>
                         <p>College of Letters and Science</p>
-                        <p>Areas of study: Computer Science, Data Science</p>
+                        <br></br>
+                        <div style={{display:"flex"}}>
+                            <p style={{lineHeight:"3vw", opacity:"0.5"}}>Areas of study: </p> 
+                            <p style={{lineHeight:"3vw"}}>&nbsp;Computer Science, Data Science</p>
+                        </div>
+                        
                     </div>
                     
                     <img src={berkeleyimg}></img>
