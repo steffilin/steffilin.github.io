@@ -3,23 +3,27 @@ p {
   /* background-color: #E4E2DF; */
   /* border-radius: 30px; */
   color: #35363C;
+  font-size: 1.1vw;
 }
 
 ul li {
   color: #35363C;
+  font-size: 1.1vw;
 }
 
 
 
 h1 {
   color: #35363C;
+  /* font-size: 2vw; */
 }
 
 h3 {
   color: #35363C;
   font-family: "DM Sans", sans-serif;
   font-weight: 800;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1.5vw;
   letter-spacing: 0.07em;
 }
 

@@ -2,7 +2,8 @@ h1 {
     font-family: "DM Sans", Serif;
     font-style: medium;
     font-weight: 600;
-    font-size: 5.5em;
+    /* font-size: 5.5em; */
+    font-size: 5vw;
     /* margin-top: 0.5em; */
     margin: 0 0 0 0;
 }
@@ -56,7 +57,8 @@ p {
 
 #socialimg img {
     height: auto;
-    width: 2em;
+    /* width: 2em; */
+    width: 1.7vw;
     /* flex: 0.1 .1 auto; */
     /* margin: 0 0 0 0; */
 }
@@ -102,12 +104,10 @@ p {
     /* align-items: left; */
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    font-size: 1.0em;
+    /* font-size: 1.0em; */
+    font-size: 1.1vw;
     letter-spacing: 00.05em;
     /* background-size: 597px 337px; */
     margin: 0 0 0 0;
     line-height: 200%;
-    /* padding: 1.5em; */
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-    /* box-shadow: -1.5em 1.5em 0em 0em rgba(96, 167, 198, 0.5); */
 }
