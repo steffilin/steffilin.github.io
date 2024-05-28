@@ -23,7 +23,7 @@
     background: transparent;
 }
 
-.proj-container {
+.menu-container {
     display: flex;
     width: 80%;
     justify-content: space-between !important;

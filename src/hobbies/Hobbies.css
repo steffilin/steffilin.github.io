@@ -1,0 +1,76 @@
+.hobbyTitle {
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+
+.hobbyText {
+    /* color: red; */
+    display: flex;
+    flex-direction: column;
+    /* list-style: none; */
+    /* padding-right: 1.5em; */
+    /* padding-bottom: 1.5em; */
+    /* gap: 0.5em; */
+    line-height: 1.5vw;
+}
+
+.hobby-text {
+    width: 60%;
+    background-color: rgba(217, 217, 217, 0.3);
+    border-radius: 1em;
+    /* border-radius: 5%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.hobby-container {
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    
+}
+
+/* .text p {
+    padding: 1.5em 1.5em 1.5em 1.5em;
+} */
+
+.hobby-text ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    /* padding: none; */
+}
+
+.expimg-container3, .expimg-container2 {
+    padding: 0 0 1.5em 1.5em;
+    display: flex;
+    gap: 2em;
+    width: 60%;
+    /* width: 50%; */
+}
+
+.expimg-container3 img {
+    max-width: 33%;
+
+}
+
+.expimg-container2 img {
+    /* border-radius: 10px; */
+    max-width: 50%;
+    object-fit: contain;
+}
+
+#phone-img {
+    border-radius: 12%/5%;
+}
+
+#website-img {
+    /* border-radius: 5%/8%; */
+}
+
+#website-with-phone {
+    /* border-radius: 5%/8%; */
+    max-width: 70%;
+}
+
+#phone-with-website {
+    border-radius: 12%/5%;
+    max-width: 25%;
+}

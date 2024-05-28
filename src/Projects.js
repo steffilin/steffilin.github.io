@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from 'react';
 
-import "./Projects.css";
+import "./MenuBlock.css";
 import AiVocate from './experience/AiVocate';
 import EthiCAL from './experience/EthiCAL';
 import CS61B from './experience/CS61B';
@@ -87,7 +87,7 @@ function ChangeExp() {
     }
 
     return (
-        <div className="proj-container">
+        <div className="menu-container">
 
             <div className="menu">
                 <ul>

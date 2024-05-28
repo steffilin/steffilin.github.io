@@ -13,7 +13,7 @@ const Education = () => {
                 <h3 id="proj-bookmark" className="head-placement">EDUCATION</h3>
                 <div className="education-text-container">
                     <div>
-                        <p style={{fontSize:"1.2vw", fontWeight:"500",fontStyle:"italic", lineHeight:"2vw"}}>University of California, Berkeley</p>
+                        <p style={{fontSize:"1.25vw", fontWeight:"500",fontStyle:"italic", lineHeight:"2vw"}}>University of California, Berkeley</p>
                         <p>College of Letters and Science</p>
                         <br></br>
                         <div style={{display:"flex"}}>
