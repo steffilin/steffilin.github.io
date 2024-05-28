@@ -15,9 +15,9 @@ function AiVocate() {
             </ul>
             <div className="expimg-container3">
                 
-                <img id="aivocate-img" src={aivocate1}></img>
-                <img id="aivocate-img" src={aivocate2}></img>
-                <img id="aivocate-img" src={aivocate3}></img>
+                <img id="phone-img" src={aivocate1}></img>
+                <img id="phone-img" src={aivocate2}></img>
+                <img id="phone-img" src={aivocate3}></img>
 
             </div>
 
