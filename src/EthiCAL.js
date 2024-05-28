@@ -16,8 +16,8 @@ function EthiCAL() {
             </ul>
             <div className="expimg-container2">
                 
-                <img className="expimg" src={ethical1}></img>
-                <img className="expimg" src={ethical2}></img>
+                <img id="ethical-img" src={ethical1}></img>
+                <img id="ethical-img" src={ethical2}></img>
 
             </div>
         </div>
