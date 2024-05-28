@@ -3,7 +3,7 @@ h1 {
     font-style: medium;
     font-weight: 600;
     /* font-size: 5.5em; */
-    font-size: 5vw;
+    font-size: 6vw;
     /* margin-top: 0.5em; */
     margin: 0 0 0 0;
 }
@@ -58,7 +58,7 @@ p {
 #socialimg img {
     height: auto;
     /* width: 2em; */
-    width: 1.7vw;
+    width: 1.8vw;
     /* flex: 0.1 .1 auto; */
     /* margin: 0 0 0 0; */
 }
