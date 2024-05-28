@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f30f9a9.css",
-    "main.js": "/static/js/main.ced48cd3.js",
+    "main.css": "/static/css/main.7a097169.css",
+    "main.js": "/static/js/main.75787fa0.js",
     "static/js/787.9cda6fd7.chunk.js": "/static/js/787.9cda6fd7.chunk.js",
     "static/media/priority-app-gif.gif": "/static/media/priority-app-gif.d220ecc7ad65c5670de8.gif",
     "static/media/aivocate1.png": "/static/media/aivocate1.c008b8e2faf6bf06ab5f.png",
     "static/media/aivocate3.png": "/static/media/aivocate3.eddf83cb2b22d3b41998.png",
     "static/media/aivocate2.png": "/static/media/aivocate2.52f9690571b243d857c1.png",
+    "static/media/ethical2.png": "/static/media/ethical2.39b0e7482f8620abe6fd.png",
+    "static/media/ethical1.png": "/static/media/ethical1.e7341c6d04915c4a846a.png",
     "static/media/priority-app-figma.png": "/static/media/priority-app-figma.db79c01a2b0ee278d6c0.png",
     "static/media/gitlet.png": "/static/media/gitlet.a79e49085e0fe1b55a47.png",
     "static/media/portrait.png": "/static/media/portrait.fd73cd2769721133c419.png",
     "static/media/Steffi-Lin-Resume.pdf": "/static/media/Steffi-Lin-Resume.8d3590f5b54232d6d57a.pdf",
     "static/media/github.svg": "/static/media/github.f60417c68b8ff116ffc0ff72cc9ab346.svg",
     "index.html": "/index.html",
-    "main.5f30f9a9.css.map": "/static/css/main.5f30f9a9.css.map",
-    "main.ced48cd3.js.map": "/static/js/main.ced48cd3.js.map",
+    "main.7a097169.css.map": "/static/css/main.7a097169.css.map",
+    "main.75787fa0.js.map": "/static/js/main.75787fa0.js.map",
     "787.9cda6fd7.chunk.js.map": "/static/js/787.9cda6fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f30f9a9.css",
-    "static/js/main.ced48cd3.js"
+    "static/css/main.7a097169.css",
+    "static/js/main.75787fa0.js"
   ]
 }
