@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b754c912.css",
-    "main.js": "/static/js/main.735add82.js",
+    "main.css": "/static/css/main.c72c9dee.css",
+    "main.js": "/static/js/main.ddadcc27.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/tasktracker2.gif": "/static/media/tasktracker2.d220ecc7ad65c5670de8.gif",
     "static/media/aivocate1.png": "/static/media/aivocate1.c008b8e2faf6bf06ab5f.png",
@@ -15,12 +15,12 @@
     "static/media/Steffi-Lin-Resume.pdf": "/static/media/Steffi-Lin-Resume.8d3590f5b54232d6d57a.pdf",
     "static/media/github.svg": "/static/media/github.f60417c68b8ff116ffc0ff72cc9ab346.svg",
     "index.html": "/index.html",
-    "main.b754c912.css.map": "/static/css/main.b754c912.css.map",
-    "main.735add82.js.map": "/static/js/main.735add82.js.map",
+    "main.c72c9dee.css.map": "/static/css/main.c72c9dee.css.map",
+    "main.ddadcc27.js.map": "/static/js/main.ddadcc27.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b754c912.css",
-    "static/js/main.735add82.js"
+    "static/css/main.c72c9dee.css",
+    "static/js/main.ddadcc27.js"
   ]
 }
