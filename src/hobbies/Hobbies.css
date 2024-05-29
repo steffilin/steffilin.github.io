@@ -14,6 +14,20 @@
     line-height: 1.5vw;
 }
 
+@keyframes myKeyframe {
+    0% {
+        opacity: 0.3;
+        height: 0%;
+    }
+
+    
+
+    100% {
+        opacity: 1;
+        height: 100%;
+    }
+}
+
 .hobby-text {
     width: 60%;
     background-color: rgba(217, 217, 217, 0.3);
@@ -21,6 +35,9 @@
     /* border-radius: 5%; */
     display: flex;
     flex-direction: column;
+    animation-name: myKeyframe;
+    animation-duration: 1s;
+    overflow: hidden;
 }
 
 .hobby-container {

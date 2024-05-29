@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Education from './Education';
 import Hobbies from './Hobbies';
+import Flower from './Flower';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <div><Projects /></div>
         <div><Education /></div>
         <div><Hobbies /></div>
+        {/* <div><Flower /></div> */}
         {/* <div><Contact /></div> */}
       
     </div>

@@ -1,6 +1,7 @@
 .expTitle {
     font-weight: 600;
     font-size: 1.2vw;
+    height:100%;
 }
 
 .explist {
@@ -12,6 +13,21 @@
     padding-bottom: 1.5em;
     gap: 0.5em;
     line-height: 1.5vw;
+    height: 100%;
+}
+
+@keyframes myKeyframe {
+    0% {
+        opacity: 0.3;
+        height: 0%;
+    }
+
+    
+
+    100% {
+        opacity: 1;
+        height: 100%;
+    }
 }
 
 .text {
@@ -21,6 +37,10 @@
     /* border-radius: 5%; */
     display: flex;
     flex-direction: column;
+    /* transition: all 2s ease-out; */
+    animation-name: myKeyframe;
+    animation-duration: 1s;
+    overflow: hidden;
 }
 
 .text p {
@@ -37,6 +57,7 @@
 
 .expimg-container3 img {
     max-width: 33%;
+    
 
 }
 

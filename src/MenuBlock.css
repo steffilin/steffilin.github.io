@@ -3,6 +3,9 @@
     justify-content: center;
     margin-top: 5em;
     margin-bottom: 5em;
+    /* animation-name: myKeyframe;
+    animation-duration: 0.5s;
+    overflow: hidden; */
 }
 
 .content {

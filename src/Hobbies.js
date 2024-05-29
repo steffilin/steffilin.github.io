@@ -18,7 +18,6 @@ const Hobbies = () => {
                 <h3 id="proj-bookmark" className="head-placement">THINGS I LOVE</h3>
                 
                 <ChangeExp/>
-                        
             </div>
         </div>
         
