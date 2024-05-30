@@ -1,5 +1,4 @@
-nav {
-    /* position: fixed; */
+/* nav {
     top: 0;
     width: 100%;
     background: white;
@@ -18,9 +17,7 @@ nav ul li {
     letter-spacing: 00.05em;
     
     background: #D6EDFF;
-    /* background-size: 159px 70px; */
     border-radius: 30px;
-    /* padding: 15px 35px; */
     margin: 5px 20px;  
 }
 
@@ -28,8 +25,6 @@ nav ul li {
 nav ul li a {
     padding: 8px 20px;
     display: block;
-    /* height: 100%;
-    width: 100%; */
     text-decoration: none;
     font-weight: 400;
     color: black;
@@ -37,4 +32,4 @@ nav ul li a {
 
 nav ul li:hover{
     box-shadow: 0px 2px 4px 2px rgba(53, 54, 60, 0.1);
-}
+} */

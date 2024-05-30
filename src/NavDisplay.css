@@ -1,0 +1,66 @@
+
+.display-container {
+   
+}
+
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    justify-content: space-between !important;
+    
+
+}
+
+.nav {
+    top: 0;
+    width: 100%;
+    background: white;
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    box-shadow: 0px 10px 30px 10px rgba(53, 54, 60, 0.07);
+}
+
+.nav ul {
+    font-weight: 300;
+    display: flex;
+    /* justify-content: space-between !important; */
+    justify-content: center;
+    width: 20%;
+    list-style: none;
+    gap: 4%;
+    
+}
+
+.nav ul li:hover {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav ul li {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.nav ul li a {
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    font-weight: 500;
+    /* cursor: pointer; */
+}
+
+
+.nav-bolded {
+    font-weight: 500;
+    /* text-decoration: underline; */
+}
+
+.none {
+
+}
+

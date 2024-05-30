@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from 'react';
 
 import "./MenuBlock.css";
-import Climbing from "./hobbies/Climbing";
-import Art from "./hobbies/Art";
-import Plants from "./hobbies/Plants";
+import Climbing from "../hobbies/Climbing";
+import Art from "../hobbies/Art";
+import Plants from "../hobbies/Plants";
 
 
 

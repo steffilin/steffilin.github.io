@@ -15,12 +15,20 @@ ul li {
 
 h1 {
   color: #35363C;
-  /* font-size: 2vw; */
+  font-family: "DM Sans", sans-serif;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-weight: bold;
+  font-size: 5vw;
+  margin: 0;
+  
 }
 
 h3 {
   color: #35363C;
   font-family: "DM Sans", sans-serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+
   font-weight: 800;
   /* font-size: 1.5em; */
   font-size: 1.6vw;

@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from 'react';
 
 import "./MenuBlock.css";
-import AiVocate from './experience/AiVocate';
-import EthiCAL from './experience/EthiCAL';
-import CS61B from './experience/CS61B';
-import TaskTracker from "./experience/TaskTracker";
-import Gitlet from "./experience/Gitlet";
+import AiVocate from '../experience/AiVocate';
+import EthiCAL from '../experience/EthiCAL';
+import CS61B from '../experience/CS61B';
+import TaskTracker from "../experience/TaskTracker";
+import Gitlet from "../experience/Gitlet";
 
 
 

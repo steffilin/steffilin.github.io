@@ -1,12 +1,9 @@
-h1 {
-    font-family: "DM Sans", Serif;
-    font-style: medium;
-    font-weight: 600;
-    /* font-size: 5.5em; */
+/* h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
     font-size: 6vw;
-    /* margin-top: 0.5em; */
     margin: 0 0 0 0;
-}
+} */
 
 p {
     margin: 0 0 0 0;    
@@ -40,7 +37,6 @@ p {
 
 #intro2 {
     flex-basis: fit-content;
-    /* margin: 0 0 0 0; */
 }
 
 .intro {
@@ -102,13 +98,9 @@ p {
 
 
 #intro{
-    /* align-items: left; */
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    /* font-size: 1.0em; */
     font-size: 1.1vw;
-    /* letter-spacing: 00.05em; */
-    /* background-size: 597px 337px; */
     margin: 0 0 0 0;
     line-height: 200%;
 }
