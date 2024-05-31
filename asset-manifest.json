@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0eddb42.css",
+    "main.css": "/static/css/main.97d933b2.css",
     "main.js": "/static/js/main.921a3166.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/tasktracker2.gif": "/static/media/tasktracker2.d220ecc7ad65c5670de8.gif",
@@ -16,12 +16,12 @@
     "static/media/Steffi-Lin-Resume.pdf": "/static/media/Steffi-Lin-Resume.a8382e3f311561ffc1bf.pdf",
     "static/media/github.svg": "/static/media/github.f60417c68b8ff116ffc0ff72cc9ab346.svg",
     "index.html": "/index.html",
-    "main.e0eddb42.css.map": "/static/css/main.e0eddb42.css.map",
+    "main.97d933b2.css.map": "/static/css/main.97d933b2.css.map",
     "main.921a3166.js.map": "/static/js/main.921a3166.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0eddb42.css",
+    "static/css/main.97d933b2.css",
     "static/js/main.921a3166.js"
   ]
 }
