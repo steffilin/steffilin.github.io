@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:wght@700&family=Poppins:wght@300;400;600;700;800&display=swap');
 
 p {
   /* background-color: #E4E2DF; */
@@ -18,7 +19,7 @@ h1 {
   font-family: "DM Sans", sans-serif;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   /* font-family: 'Courier New', Courier, monospace; */
-  font-weight: bold;
+  font-weight: 600;
   font-size: 5vw;
   margin: 0;
   
