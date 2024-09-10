@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from 'react';
 
 import "./MenuBlock.css";
+import EGolf from '../experience/EGolf';
 import AiVocate from '../experience/AiVocate';
 import EthiCAL from '../experience/EthiCAL';
 import CS61B from '../experience/CS61B';
@@ -29,46 +30,60 @@ const Projects = () => {
 export default Projects
 
 function ChangeExp() {
-    const [exp, setExp] = useState(<AiVocate/>);
+    const [exp, setExp] = useState(<EGolf/>);
     const [style1, setStyle1] = useState('bolded');
     const [style2, setStyle2] = useState('none');
     const [style3, setStyle3] = useState('none');
     const [style4, setStyle4] = useState('none');
     const [style5, setStyle5] = useState('none');
+    const [style6, setStyle6] = useState('none');
 
     function handleClick(app, elem) {
         switch(app) {
-            case "aivocate":
-                setExp(<AiVocate/>);
+            case "egolf":
+                setExp(<EGolf/>);
                 setStyle1('bolded');
                 setStyle2('none');
                 setStyle3('none');
                 setStyle4('none');
                 setStyle5('none');
+                setStyle6('none');
                 break;
-            case "ethical":
-                setExp(<EthiCAL/>);
+            case "aivocate":
+                setExp(<AiVocate/>);
                 setStyle1('none');
                 setStyle2('bolded');
                 setStyle3('none');
                 setStyle4('none');
                 setStyle5('none');
+                setStyle6('none');
                 break;
-            case "cs61b":
-                setExp(<CS61B/>);
+            case "ethical":
+                setExp(<EthiCAL/>);
                 setStyle1('none');
                 setStyle2('none');
                 setStyle3('bolded');
                 setStyle4('none');
                 setStyle5('none');
+                setStyle6('none');
+                break;
+            case "cs61b":
+                setExp(<CS61B/>);
+                setStyle1('none');
+                setStyle2('none');
+                setStyle3('none');
+                setStyle4('bolded');
+                setStyle5('none');
+                setStyle6('none');
                 break;
             case "tasktracker":
                 setExp(<TaskTracker/>);
                 setStyle1('none');
                 setStyle2('none');
                 setStyle3('none');
-                setStyle4('bolded');
-                setStyle5('none');
+                setStyle4('none');
+                setStyle5('bolded');
+                setStyle6('none');
                 break;
             case "gitlet":
                 setExp(<Gitlet/>);
@@ -76,7 +91,8 @@ function ChangeExp() {
                 setStyle2('none');
                 setStyle3('none');
                 setStyle4('none');
-                setStyle5('bolded');
+                setStyle5('none');
+                setStyle6('bolded');
                 break;
             default:
                 // experienceMenu = <AiVocate/>
@@ -91,10 +107,11 @@ function ChangeExp() {
 
             <div className="menu">
                 <ul>
-                    <li className={style1} onClick={() => handleClick("aivocate", this)}>Ai.Vocate</li>
-                    <li className={style2} onClick={() => handleClick("ethical", this)}>EthiCAL Apparel</li>
-                    <li className={style3} onClick={() => handleClick("cs61b", this)}>Berkeley EECS CS61B</li>
-                    <li className={style4} onClick={() => handleClick("tasktracker", this)}>Task Tracker App</li>
+                    <li className={style1} onClick={() => handleClick("egolf", this)}>eGolf.ai</li>
+                    <li className={style2} onClick={() => handleClick("aivocate", this)}>Ai.Vocate</li>
+                    <li className={style3} onClick={() => handleClick("ethical", this)}>EthiCAL Apparel</li>
+                    <li className={style4} onClick={() => handleClick("cs61b", this)}>Berkeley EECS CS61B</li>
+                    <li className={style5} onClick={() => handleClick("tasktracker", this)}>Task Tracker App</li>
                     {/* <li className={style5} onClick={() => handleClick("gitlet", this)}>Gitlet</li> */}
                 </ul>
             </div>
