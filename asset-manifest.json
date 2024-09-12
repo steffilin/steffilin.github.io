@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.97d933b2.css",
-    "main.js": "/static/js/main.518f9327.js",
+    "main.js": "/static/js/main.802ba52b.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/tasktracker2.gif": "/static/media/tasktracker2.d220ecc7ad65c5670de8.gif",
     "static/media/aivocate1.png": "/static/media/aivocate1.c008b8e2faf6bf06ab5f.png",
@@ -13,15 +13,15 @@
     "static/media/tasktracker1.png": "/static/media/tasktracker1.db79c01a2b0ee278d6c0.png",
     "static/media/berkeley.png": "/static/media/berkeley.a8f531c0b2e1fd43fd9e.png",
     "static/media/portrait.png": "/static/media/portrait.fd73cd2769721133c419.png",
-    "static/media/Steffi-Lin-Resume.pdf": "/static/media/Steffi-Lin-Resume.3a90ba8962ebc4713d56.pdf",
+    "static/media/Steffi-Lin-Resume.pdf": "/static/media/Steffi-Lin-Resume.898ff87f109a229ee12a.pdf",
     "static/media/github.svg": "/static/media/github.f60417c68b8ff116ffc0ff72cc9ab346.svg",
     "index.html": "/index.html",
     "main.97d933b2.css.map": "/static/css/main.97d933b2.css.map",
-    "main.518f9327.js.map": "/static/js/main.518f9327.js.map",
+    "main.802ba52b.js.map": "/static/js/main.802ba52b.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97d933b2.css",
-    "static/js/main.518f9327.js"
+    "static/js/main.802ba52b.js"
   ]
 }
