@@ -1,8 +1,9 @@
 import React from "react";
 import "./Experience.css";
-// import aivocate1 from "./images/aivocate1.png";
-// import aivocate2 from "./images/aivocate2.png";
-// import aivocate3 from "./images/aivocate3.png";
+import egolf1 from "./images/egolf1.png";
+import egolf2 from "./images/egolf2.png";
+import egolf3 from "./images/egolf3.png";
+import egolf4 from "./images/egolf4.png";
 
 function EGolf() {
     return (
@@ -16,13 +17,14 @@ function EGolf() {
                 <li>Collected user club and swing data to provide an automatic swing and course assistance experience to users</li>
                 <li>Incorporated custom UI components and animations to create intuitive and engaging user interfaces</li>
             </ul>
-            {/* <div className="expimg-container3">
+            <div className="expimg-container4">
                 
-                <img id="phone-img" src={aivocate1}></img>
-                <img id="phone-img" src={aivocate2}></img>
-                <img id="phone-img" src={aivocate3}></img>
+                <img id="watch-img" src={egolf1}></img>
+                <img id="watch-img" src={egolf2}></img>
+                <img id="phone-img" src={egolf3}></img>
+                <img id="phone-img" src={egolf4}></img>
 
-            </div> */}
+            </div>
 
         </div>
     );

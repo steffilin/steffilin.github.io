@@ -55,9 +55,23 @@
     /* width: 50%; */
 }
 
+.expimg-container4 {
+    padding: 0 0 1.5em 1.5em;
+    display: flex;
+    gap: 2em;
+    width: 80%;
+    /* width: 50%; */
+}
+
 .expimg-container3 img {
     max-width: 33%;
     
+
+}
+
+.expimg-container4 img {
+    max-width: 20%;
+    object-fit: contain;
 
 }
 
@@ -69,6 +83,10 @@
 
 #phone-img {
     border-radius: 12%/5%;
+}
+
+#watch-img {
+    border-radius: 12%/12%;
 }
 
 #website-img {
