@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.97d933b2.css",
-    "main.js": "/static/js/main.8e37c01f.js",
+    "main.css": "/static/css/main.fb456205.css",
+    "main.js": "/static/js/main.e163ee4b.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/tasktracker2.gif": "/static/media/tasktracker2.d220ecc7ad65c5670de8.gif",
+    "static/media/egolf2.png": "/static/media/egolf2.41cd4621ae96feb5974f.png",
+    "static/media/egolf1.png": "/static/media/egolf1.eb65c697d9d5b66d6978.png",
     "static/media/aivocate1.png": "/static/media/aivocate1.c008b8e2faf6bf06ab5f.png",
     "static/media/aivocate3.png": "/static/media/aivocate3.eddf83cb2b22d3b41998.png",
     "static/media/aivocate2.png": "/static/media/aivocate2.52f9690571b243d857c1.png",
@@ -13,15 +15,17 @@
     "static/media/tasktracker1.png": "/static/media/tasktracker1.db79c01a2b0ee278d6c0.png",
     "static/media/berkeley.png": "/static/media/berkeley.a8f531c0b2e1fd43fd9e.png",
     "static/media/portrait.png": "/static/media/portrait.fd73cd2769721133c419.png",
+    "static/media/egolf3.png": "/static/media/egolf3.9c8c376fb723cda35715.png",
     "static/media/Steffi-Lin-Resume.pdf": "/static/media/Steffi-Lin-Resume.794c70ece38b3201d021.pdf",
+    "static/media/egolf4.png": "/static/media/egolf4.449dcd7ea12ede690362.png",
     "static/media/github.svg": "/static/media/github.f60417c68b8ff116ffc0ff72cc9ab346.svg",
     "index.html": "/index.html",
-    "main.97d933b2.css.map": "/static/css/main.97d933b2.css.map",
-    "main.8e37c01f.js.map": "/static/js/main.8e37c01f.js.map",
+    "main.fb456205.css.map": "/static/css/main.fb456205.css.map",
+    "main.e163ee4b.js.map": "/static/js/main.e163ee4b.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97d933b2.css",
-    "static/js/main.8e37c01f.js"
+    "static/css/main.fb456205.css",
+    "static/js/main.e163ee4b.js"
   ]
 }
